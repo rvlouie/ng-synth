@@ -1,3 +1,19 @@
-<p>
-  Home Works!
-</p>
+<div class="wrapper">
+  <div class="params">
+  	<div class="column">
+  		<div class="title">Oscillator</div>
+		<div class="param">{{oscType}}</div>
+		<div class="param">frequency: {{oscFrequency}} Hz</div>
+	</div>
+  	<div class="column">
+  		<div class="title">Filter</div>
+  		<div class="param">{{filterType}}</div>
+  		<div class="param">cuttoff: {{600}} Hz</div>
+  	</div>
+  	<div class="column">
+  		<div class="title">Amp</div>
+  		<div class="param">gain: {{gainPercent}}%</div>
+  	</div>
+  </div>
+  <button class="button" (click)="playTest()">Execute</button>
+</div>

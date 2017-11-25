@@ -4,20 +4,44 @@
 }
 
 header {
-  background-color: #fff;
+  background-color: #ea9e13;
   padding: 16px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  color: #fffcfa;
+  font-size: 13.7vw;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 0;
+  line-height: 12vw;
+  text-transform: uppercase;
+  letter-spacing: -0.085em;
+  margin-left: -1.4vw;
+}
+
+p {
+  color: #616161; 
+}
+
+body {
+  background-color: #fff;
+}
+
+.test-image {
+  width: 30px;
 }
 
 main {
   padding: 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Raleway, Helvetica, sans-serif;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 15px;
   display: block;
 }
 
